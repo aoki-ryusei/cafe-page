@@ -1,0 +1,60 @@
+/*モバイル版
+---------------*/
+
+
+
+@media all and (max-width: 600px) {
+    /*home
+    --------------*/
+    .page-title h2{
+        font-size:25px;
+
+    }
+    .page-title  p {
+        font-size:15px;
+    }
+    .main-nav {
+        font-size: 10px;
+        margin-top:10px;
+        display:none;
+
+    }
+    .main-nav li {
+        margin:0px 20px;
+    }
+    .top-wrapper {
+        padding-top:30%;
+    }
+    nav .fa{
+        display:block;
+    }
+
+    
+    /*menu
+    -------------*/
+    .menu-title p {
+    font-size: 8px;
+    }
+    
+
+    .news-contents-wrapper{
+        flex-direction:column;
+    }
+    article,
+    aside {
+        width:100%;
+    }
+    /*contact
+    -------------*/
+    #SNS,
+    .location-wrapper {
+        flex-direction:column;
+    }
+    .location-info,
+    .location-map,
+    .SNS-wrapper {
+        width:100%;
+
+    }
+
+}
